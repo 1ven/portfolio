@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>payment</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="p-payment">
+    <div class="b-common-wrap">
+      <form><span class="b-title-a">Payment for the trip</span>
+        <div class="b-promocode"><span class="b-title"><span class="line line_left"></span><span class="inside">Your promo code</span><span class="line line_right"></span></span>
+          <input type="text" placeholder="xxxxxxxx">
+        </div>
+        <div class="b-payment-box"><span class="b-title"><span class="line line_left"></span><span class="inside">Payment</span><span class="line line_right"></span></span>
+          <div class="amount"><span class="title">Amount to pay</span><span class="money">KSh <span class="value">400</span></span></div>
+        </div>
+        <div class="b-pay-method"><span class="b-title"><span class="line line_left"></span><span class="inside">Select a payment method</span><span class="line line_right"></span></span>
+          <div class="items">
+            <div class="item item_invoice"></div>
+            <div class="item item_creditcard"></div>
+            <div class="item item_cash"></div>
+            <div class="item item_mopesa"></div>
+            <div class="item item_airtel"></div>
+          </div>
+        </div>
+        <div class="b-payment-details"><span class="b-title"><span class="line line_left"></span><span class="inside">Mobile money payment Details</span><span class="line line_right"></span></span>
+          <div class="col-wrap">
+            <div class="col">
+              <div class="item"><span class="top-title"><span class="line line_left"></span><span class="inside">Pay Bill Business No.</span><span class="line line_right"></span></span><span class="info">123456</span></div>
+            </div>
+            <div class="col">
+              <div class="item"><span class="top-title"><span class="line line_left"></span><span class="inside">Account No.</span><span class="line line_right"></span></span><span class="info">654321</span></div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="b-notifications">
+        <div class="notify notify_rednote">There’s a Problem With Your Promo Code</div>
+        <div class="notify notify_greennote">Counted! Your account has been credited</div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>

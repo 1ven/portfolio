@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Каталог</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/common.min.css"><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="p-catalog">
+    <header class="b-header">
+      <div class="b-container">
+        <div class="b-header__wrap">
+          <div class="b-header__left"><a href="#" class="b-logo"><img src="img/logo.png" class="b-logo__img" alt=""/></a>
+          </div>
+          <div class="b-header__right">
+            <div class="b-header__cols">
+              <div class="b-header__col b-header__col_menu">
+                <nav class="b-menu"><a href="#" class="b-menu__link b-menu__link_active">О компании</a><a href="#" class="b-menu__link">Бренды</a><a href="#" class="b-menu__link">Доставка</a><a href="#" class="b-menu__link">Дилеры</a><a href="#" class="b-menu__link">Контакты</a>
+                </nav>
+              </div>
+              <div class="b-header__col b-header__col_info">
+                <div class="b-header__row">
+                  <div class="b-head-info">
+                    <div class="b-head-info__row">
+                      <div class="b-head-info__left"><a href="tel:+74999633046" class="b-phone"><span>+7 (499)</span> 963-30-46</a>
+                      </div>
+                      <div class="b-head-info__right"><a href="#" class="b-link">Заказать звонок</a>
+                      </div>
+                    </div>
+                    <div class="b-head-info__row">
+                      <div class="b-head-info__left"><a href="tel:+79647614329" class="b-phone"><span>+7 (964)</span> 761-43-29</a>
+                      </div>
+                      <div class="b-head-info__right"><a href="#" class="b-link">Обратная связь</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="b-header__row">
+                  <form class="b-search">
+                    <input type="text" placeholder="Поиск по сайту" class="b-search__input search"/>
+                    <input type="submit" value="" class="b-search__submit"/>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="b-common-wrap">
+      <section class="b-top-back">
+        <div class="b-container">
+          <div class="-middle-out b-top-back__wrap">
+            <div class="-middle-in b-top-back__inside"><span class="b-title">Каталог</span><span class="b-sub">Информация о магазине</span>
+            </div>
+          </div>
+          <div class="b-top-back__bread-wrap">
+            <div class="b-breadcrumbs"><a href="#" class="b-breadcrumbs__item">Главная</a><a href="#" class="b-breadcrumbs__item">О компании</a><span class="b-breadcrumbs__item b-breadcrumbs__item_active">Гарантия и сервис</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="b-content">
+        <div class="b-container">
+          <div class="b-content__wrap">
+            <div class="b-content__left b-content__left_catalog">
+              <div class="b-content__row">
+                <div class="b-filter">
+                  <div class="b-filter__title-wrap"><span class="b-filter__title-top">Подбор по параметрам</span>
+                  </div>
+                  <div class="b-filter__content">
+                    <div class="b-block">
+                      <div class="b-block__header b-block__header_active"><span class="b-block__title">Цена, руб</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__wrap">
+                          <div class="b-block__left">
+                            <input type="text" placeholder="20 500" class="b-input b-input_filter b-input_left"/>
+                          </div>
+                          <div class="b-block__right">
+                            <input type="text" placeholder="112 990" class="b-input b-input_filter b-input_right"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-block">
+                      <div class="b-block__header"><span class="b-block__title">Производитель</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Diadora</span>
+                          </label>
+                        </div>
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Diamond Fitness</span>
+                          </label>
+                        </div>
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Marbo Sport</span>
+                          </label>
+                        </div>
+                        <div class="b-block__more-wrap"><span class="b-block__more-link">Еще 20</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-block">
+                      <div class="b-block__header"><span class="b-block__title">Тип</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Механическая</span>
+                          </label>
+                        </div>
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Магнитная</span>
+                          </label>
+                        </div>
+                        <div class="b-block__row">
+                          <label class="b-check">
+                            <input type="checkbox" class="b-check__native"/><span class="b-check__icon"></span><span class="b-check__text">Электрическая</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-block">
+                      <div class="b-block__header"><span class="b-block__title">Скорость движения бегового полотна макс., км/ч</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__wrap">
+                          <div class="b-block__left">
+                            <input type="text" placeholder="20 500" class="b-input b-input_filter b-input_left"/>
+                          </div>
+                          <div class="b-block__right">
+                            <input type="text" placeholder="112 990" class="b-input b-input_filter b-input_right"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-block">
+                      <div class="b-block__header"><span class="b-block__title">Мощность двигателя макс., л.с.</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__wrap">
+                          <div class="b-block__left">
+                            <input type="text" placeholder="6" class="b-input b-input_filter b-input_left"/>
+                          </div>
+                          <div class="b-block__right">
+                            <input type="text" placeholder="25" class="b-input b-input_filter b-input_right"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-block">
+                      <div class="b-block__header"><span class="b-block__title">Вес пользователя макс., кг</span>
+                      </div>
+                      <div class="b-block__body">
+                        <div class="b-block__wrap">
+                          <div class="b-block__left">
+                            <input type="text" placeholder="90" class="b-input b-input_filter b-input_left"/>
+                          </div>
+                          <div class="b-block__right">
+                            <input type="text" placeholder="227" class="b-input b-input_filter b-input_right"/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="b-content__row">
+                <div class="b-other-products">
+                  <div class="b-other-products__header"><span class="b-other-products__title">Другие товары каталога</span>
+                  </div>
+                  <div class="b-other-products__content">
+                    <div class="b-other-products__row"><a href="#" class="b-other-products__text">Велотренажеры<span class="b-other-products__total">340</span></a>
+                    </div>
+                    <div class="b-other-products__row"><a href="#" class="b-other-products__text">Силовые тренажеры<span class="b-other-products__total">84</span></a>
+                    </div>
+                    <div class="b-other-products__row"><a href="#" class="b-other-products__text">Силовые тренажеры (домашние)<span class="b-other-products__total">171</span></a>
+                    </div>
+                    <div class="b-other-products__row"><a href="#" class="b-other-products__text">Эллиптические тренажеры<span class="b-other-products__total">340</span></a>
+                    </div>
+                    <div class="b-other-products__row"><a href="#" class="b-other-products__text">Спин-байки<span class="b-other-products__total">216</span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="b-content__right">
+              <div class="b-products">
+                <div class="b-products__sort-wrap">
+                  <div class="b-sort">
+                    <div class="b-sort__left">
+                      <div class="b-tags">
+                        <div class="b-tags__tag">Diamond Fitness
+                        </div>
+                      </div>
+                    </div>
+                    <div class="b-sort__right">
+                      <div class="b-sorter">
+                        <div class="b-sorter__price b-sorter__price_active">Сначала дешевые
+                        </div>
+                      </div>
+                      <div class="b-switcher"><a href="#" class="b-switcher__item b-switcher__item_grid"></a><a href="#" class="b-switcher__item b-switcher__item_active b-switcher__item_list"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="b-products__products-wrap">
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="b-product">
+                    <div class="b-product__left"><img src="http://placehold.it/168x140" class="b-product__img" alt=""/>
+                    </div>
+                    <div class="b-product__right"><a href="#" class="b-product__title">Diamond Fitness Radio 60 PRO</a><span class="b-product__category">Беговая дорожка</span>
+                      <div class="b-product__desc">
+                        <p>Тип: электрическая, Рама: усиленная с двухслойной покраской, Скорость: 1-18 км/ч, Шаг регулировки скорости: 0,1 км/ч, Мощность двигателя: 3,5 л.с., Размер бегового полотна: 132х46 см, Толщина бегового полотна: 1,8 мм, Регулировка наклона полотна: электрическая  0-15%, Толщина деки: 18 мм</p>
+                      </div>
+                      <div class="b-product__buttom">
+                        <div class="b-product__col"><span class="b-price">49900,00 руб</span>
+                        </div>
+                        <div class="b-product__col"><a href="#" class="b-btn b-btn_green more">подробнее</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="b-products__pagination-wrap">
+                  <div class="b-pagination"><span class="b-pagination__item b-pagination__item_active">1</span><a href="#" class="b-pagination__item">2</a><a href="#" class="b-pagination__item">3</a><span class="b-pagination__item">...</span><a href="#" class="b-pagination__item">20</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="b-category-desc">
+        <div class="b-container">
+          <div class="b-category-desc__wrap"><span class="b-category-desc__title">Беговые дорожки в каталоге soulfitness</span>
+            <div class="b-category-desc__text">
+              <p>На нашем складе всегда есть продукция в достаточном количестве, поэтому вы можете совершить покупку здесь и сейчас, а при поломке рассчитывать на оперативный ремонт! Ответственный менеджмент, слаженный коллектив, проработанная логистика – наши специалисты делают все, чтобы работать эффективно! SoulFit подходит индивидуально к нуждам каждого клиента: по вашему желанию мы можем обеспечить вам выезд нашего менеджера на место, подготовить дизайн-проект и установить оборудование. Консультанты нашей компании всегда готовы помочь вам с выбором!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="b-yellow-sec">
+        <div class="b-container">
+          <div class="b-yellow-sec__col-wrap">
+            <div class="b-yellow-sec__col">
+              <div class="b-info-box">
+                <div class="b-info-box__image-wrap"><img src="img/icon-time.png" class="b-info-box__img" alt=""/>
+                </div><span class="b-info-box__title">Время работы</span><span class="b-info-box__small-text">ПН-ПТ 09:00-18:00</span><span class="b-info-box__small-text">СБ-ВС выходные</span>
+              </div>
+            </div>
+            <div class="b-yellow-sec__col">
+              <div class="b-info-box">
+                <div class="b-info-box__image-wrap"><img src="img/icon-phone.png" class="b-info-box__img" alt=""/>
+                </div><span class="b-info-box__title">Телефоны</span><a href="tel:+74999633046" class="b-info-box__small-text">+7 (499) 963-30-46</a><a href="tel:+79647614329" class="b-info-box__small-text">+7 (964) 761-43-29</a>
+              </div>
+            </div>
+            <div class="b-yellow-sec__col">
+              <div class="b-info-box">
+                <div class="b-info-box__image-wrap"><img src="img/icon-mail.png" class="b-info-box__img" alt=""/>
+                </div><span class="b-info-box__title">Email</span><span class="b-info-box__small-text">soulfitnes@yandex.ru</span><span class="b-info-box__small-text">soulfitnes@mail.ru</span><span class="b-info-box__small-text">info@soulfitnes.ru</span>
+              </div>
+            </div>
+            <div class="b-yellow-sec__col">
+              <div class="b-info-box">
+                <div class="b-info-box__image-wrap"><img src="img/icon-call.png" class="b-info-box__img" alt=""/>
+                </div><span class="b-info-box__title">ОСТАЛИСЬ ВОПРОСЫ?</span>
+                <div class="b-info-box__button-wrap"><a href="#" class="b-btn">ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="b-footer">
+      <div class="b-container">
+        <div class="b-footer__wrap">
+          <div class="b-footer__left"><a href="#" class="b-logo"><img src="img/footer-logo.png" class="b-logo__img" alt=""/></a>
+            <div class="b-copyright">© 2015 soulfitnes.com. <br> Все права защищены.
+            </div>
+          </div>
+          <div class="b-footer__middle">
+            <nav class="b-menu b-menu_footer"><a href="#" class="b-menu__link b-menu__link_active">О компании</a><a href="#" class="b-menu__link">Бренды</a><a href="#" class="b-menu__link">Доставка</a><a href="#" class="b-menu__link">Дилеры</a><a href="#" class="b-menu__link">Контакты</a></nav>
+          </div>
+          <div class="b-footer__right"><a href="#" class="b-logo"><img src="img/swd-logo.png" class="b-logo__img" alt=""/></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/vendor.min.js"></script>
+    <script src="js/client.min.js"></script>
+  </body>
+</html>

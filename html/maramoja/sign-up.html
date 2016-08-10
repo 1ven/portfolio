@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css"><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="p-sign-up">
+    <div id="js-loader" class="b-loader b-loader_animation"><img src="img/loader.svg" alt="" width="40"></div>
+    <div class="b-common-wrap">
+      <section class="s-tmpl-c"><a href="http://maramoja.co.ke/" class="logo"><img src="img/mm-logo-blue.png" alt=""></a><span class="title">Get started with a Free Account</span><span class="sub">Sign up in 30 seconds. No credit card required. Already have a MARAMOJA account? <a href="#">Log in here.</a></span></section>
+      <section class="s-tmpl-d">
+        <div class="container">
+          <form id="signup" class="b-form b-form_light">
+            <div class="left">
+              <div class="left-wrap"><span class="title">Connect with Facebook</span><span class="sub"><span>Earn a KSh 300</span> account credit<br>toward your 1st ride.</span>
+                <p>Access your friends’ favourite drivers.<br>Expand your network of trusted transport.<br>Have safe rides everywhere in the city.</p>
+              </div>
+              <div class="line line_bordered">
+                <label for="#promocode-2">Promo code</label>
+                <div class="input-wrap">
+                  <input type="text" id="promocode-2" placeholder="xxxxxxxxxx">
+                </div>
+              </div><a href="#" class="b-btn-b b-btn-b_fb">Log in with FACEBOOK</a>
+            </div>
+            <div class="right">
+              <div class="line">
+                <label for="name">Your name</label>
+                <div class="input-wrap">
+                  <input type="text" id="name" placeholder="Your full name" data-validation="required" data-validation-error-msg="Please enter your name">
+                </div>
+              </div>
+              <div class="line">
+                <label for="mail">Email address</label>
+                <div class="input-wrap">
+                  <input type="text" id="mail" placeholder="you@example.com" data-validation="email" data-validation-error-msg="Something is wrong with your email">
+                </div>
+              </div>
+              <div class="line">
+                <label for="phone">Phone number</label>
+                <div class="input-wrap">
+                  <input type="text" id="phone" placeholder="12-3456-7890" data-validation="number" data-validation-error-msg="Something is wrong with your phone number">
+                </div>
+              </div>
+              <div class="line">
+                <label for="password">Password</label>
+                <div class="input-wrap">
+                  <input type="password" id="password" placeholder="xxxxxxxxxx" data-validation="length" data-validation-length="min6" data-validation-error-msg="Password must be at least 6 characters">
+                </div>
+              </div>
+              <div class="line">
+                <label for="confirm-pass">Confirm Password</label>
+                <div class="input-wrap">
+                  <input type="password" id="confirm-pass" placeholder="xxxxxxxxxx" data-validation="confirmation" data-validation-error-msg="Please confirm your password">
+                </div>
+              </div>
+              <button type="submit" class="b-btn-b b-btn-b_green">Sign Up</button><a href="#" class="log-link">Already have an account?</a>
+            </div>
+            <div class="signup-error"></div>
+          </form>
+        </div>
+      </section>
+    </div>
+    <footer class="s-footer">
+      <div class="container">
+        <div class="left"><span class="copyright">© 2014 MARAMOJA</span>
+          <ul class="b-footer-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul><a href="#" class="b-btn-c b-btn-c_gray b-btn-c_support">Get support</a>
+        </div>
+        <div class="right">
+          <div class="b-social"><a href="#" class="link link_fb"></a><a href="#" class="link link_tw"></a><a href="#" class="link link_gplus"></a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.viewport.js"></script>
+    <script src="js/jquery.form-validator.min.js"></script>
+    <script src="js/jquery.im-slider.js"></script>
+    <script src="js/maramoja.js"></script>
+  </body>
+</html>

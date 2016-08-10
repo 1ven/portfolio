@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>selected-driver</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/common.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+  </head>
+  <body class="p-selected-driver">
+    <div class="b-common-wrap">
+      <div class="inside">
+        <div class="b-map-wrap">
+          <div class="middle">
+            <div class="b-map">
+              <div class="map-wrap">
+                <div class="map-top">
+                  <div class="left"><a href="#" class="b-current-pos-link"></a></div>
+                  <div class="right">
+                  </div>
+                </div>
+                <div id="map"></div>
+              </div>
+            </div>
+            <div class="b-selected-driver">
+              <div class="wrap">
+                <div class="top">
+                  <div class="b-driver-av b-driver-av_fb"><img src="img/content/driver-avatar-big.png" alt=""></div><span class="driver-name">Peter Alexander</span>
+                  <div class="b-stars"><span class="star star_active"></span><span class="star star_active"></span><span class="star star_active"></span><span class="star star_active"></span><span class="star"></span></div>
+                </div>
+                <div class="middle">
+                  <div class="row row_sm-rborder">
+                    <div class="row-half"><span class="car"><span class="dark">Toyota</span>  |  KAY453R</span></div>
+                    <div class="row-half"><a href="#" data-id="#show-car" class="show-car-link im-popup-link">Show the car photo</a></div>
+                  </div>
+                  <div class="row row_rborder">
+                    <div class="row-half"><a href="#" class="row-table">
+                        <div class="table-left"><span class="b-sm-icon b-sm-icon_green b-sm-icon_phone"></span></div>
+                        <div class="table-right"><span class="text-a">Call the driver</span></div></a></div>
+                    <div class="row-half"><a href="#" class="row-table">
+                        <div class="table-left"><span class="b-sm-icon b-sm-icon_green b-sm-icon_mail"></span></div>
+                        <div class="table-right"><span class="text-a">SMS the driver</span></div></a></div>
+                  </div>
+                  <div class="row"><span class="text">Your driver has arrived within <span class="distance">300 meters</span></span></div>
+                </div>
+                <div class="bottom">
+                  <div class="b-blue-btns"><a href="#" class="btn">Cancel the trip</a><a href="#" class="btn btn_bold">Payment</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom"><a href="#" id="sh-sel-driver" class="b-bottom-pane b-bottom-pane_arr-down"><span class="inside">Show map</span></a></div>
+        </div>
+      </div>
+      <div class="im-popups">
+        <div id="show-car" class="im-popup b-car-popup">
+          <div class="b-popup">
+            <div class="inside-wrap">
+              <div class="photo"><img src="img/content/driver-car.png" alt=""></div><span class="model"><span class="dark">Toyota</span>  |  KAY453R</span><a href="#" class="close">Close the car photo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/gmap.js"></script>
+  </body>
+</html>
